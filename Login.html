@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="nav.css">
-    <title>Document</title>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="Login.css">
 </head>
 <body>
     <div class="content">
-        <div class="navbar" id="navbar">
-        <div class="navlinks">
+        <div class="navbar">
             <a href="nav.html" class="Info">Home</a>
             <a href="about.html" class="Info">About</a>
             <a href="service.html" class="Info">Services</a>
@@ -17,16 +16,18 @@
             <a href="Login.html" class="Info">Login</a>
             <a href="Project.html" class="Info">Projects</a>
         </div>
-        </div>
-<div class="Kalinchwok" id="Kalinchwok">
-    <span></span>
-    <span></span>
-    <span></span>
-</div>
+        <br>
         <div class="content">
-            <h1 id="typed-text"></h1>
-            <a href="Login.html" class="button">Sign up</a>
+            <h1>Login Form</h1>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+    
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password" required>
+    
+                <button type="submit">Login</button>
+            </form>
         </div>
-        <script src="script.js"></script>
-    </body>
-    </html>
+</body>
+</html>
