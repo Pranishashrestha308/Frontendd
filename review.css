@@ -76,6 +76,9 @@ body {
         right: 20px;
         position: absolute;
     }
+    .nav-links.active{
+        display: flex;
+    }
 }
 
 .navbar ul li a {
@@ -103,7 +106,7 @@ body {
     color: black;
 }
 
-.towns{
+.projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -124,18 +127,17 @@ body {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
-    margin-left: auto;
 }
 
-.img1 {
+.img2 {
     height: 280px;
     width: 500px;
-} 
- .img2 {
-    height: 280px;
-    width: 500px;
-} 
+}
 
+.img3 {
+    height: 280px;
+    width: 500px;
+}
 
 .project-item h3 {
     margin-bottom: 10px;
