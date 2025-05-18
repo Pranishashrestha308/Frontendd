@@ -20,17 +20,21 @@ const projects = [
 {
     image:"kuriii.jpg",
     title : "Kuri village",
-    description : "Kuri village, located in the Dolakha district of Nepal."
+    description : "Kuri village, located in the Dolakha district of Nepal.",
+    src :"http://127.0.0.1:5500/Calculator/index.html",
 },
 {
     image : "gaurishankar.jpg",
     title : " Gaurishankar Himal",
-    description : "Gaurishankar Himal, located in the Dolakha district of Nepal."
+    description : "Gaurishankar Himal, located in the Dolakha district of Nepal.", 
+src :"http://127.0.0.1:5500/Calculator/index.html",
+    
 },
 {
     image : "tshorolpa.jpg",
     title : "Tsho Rolpa Lake",
-    description : "Tsho Rolpa Lake, situated at an elevation of approximately 4,580 meters."
+    description : "Tsho Rolpa Lake, situated at an elevation of approximately 4,580 meters.",
+     src :"http://127.0.0.1:5500/Calculator/index.html",
 },
 ]
 const container = document.getElementById("project");
@@ -41,6 +45,7 @@ projects.forEach(project=>{
     <img src = "${project.image}"alt="${project.title}"/>
     <h3>${project.title}</h3>
     <p>${ project.description}</p>
+    <a href="${ project.src}".view Project</a>
     `;
     container.appendChild(item);
 });
