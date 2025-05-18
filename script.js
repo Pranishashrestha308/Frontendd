@@ -27,7 +27,7 @@ const projects = [
     image : "gaurishankar.jpg",
     title : " Gaurishankar Himal",
     description : "Gaurishankar Himal, located in the Dolakha district of Nepal.", 
-src :"http://127.0.0.1:5500/Calculator/index.html",
+    src :"http://127.0.0.1:5500/Calculator/index.html",
     
 },
 {
@@ -45,7 +45,7 @@ projects.forEach(project=>{
     <img src = "${project.image}"alt="${project.title}"/>
     <h3>${project.title}</h3>
     <p>${ project.description}</p>
-    <a href="${ project.src}".view Project</a>
+    <a href="${ project.src}">view.Project</a>
     `;
     container.appendChild(item);
 });
